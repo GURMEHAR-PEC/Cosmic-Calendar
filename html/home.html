@@ -6,6 +6,7 @@
     <title>Falling Stars</title>
     <link rel="stylesheet" href="../css/home.css">
     <link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,25 +18,16 @@
         </div>
         <div class="twinkling"></div>
         <div class="clouds"></div>
-        <div class="text">
-            <h1>Welcome to the <strong class="effect">Cosmic Calender</strong></h1>
-        </div>
-        <div class="form">
-            <div class="opt1">
-                <label for="opt1" class="checklabel"> Detect Location Automatically</label>
-                <input type="checkbox" id="opt1" name="opt1" value="loc1" class="box">
-
+     
+        <div class="left">
+            <h1>Welcome to the <strong class="effect">Cosmic Calendar</strong></h1>
+            <div class="input">
+                <button id="location" onclick="myfunction()">Get Location</button>
             </div>
-
-            <div class="opt2">
-                <label for="opt2" class="checklabel"> Enter location manually</label>
-                <input type="checkbox" id="opt2" name="opt2" value="loc2" class="box">
-
-            </div>
-
-
         </div>
-
+    
+        
 </body>
+<script src="../js/home.js"></script>
 
 </html>
