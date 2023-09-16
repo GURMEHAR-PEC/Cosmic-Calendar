@@ -1,3 +1,4 @@
+// Data for celestial events
 export const celestialData = [
   {
     date: "2023-01-03",
