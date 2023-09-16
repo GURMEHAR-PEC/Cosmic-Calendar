@@ -1,6 +1,6 @@
 ## About Project
 
-A calendar that displays all celestial events observable from the location of the user and recommends the optimal viewing time  based on weather data.
+A calendar that displays all celestial events observable from the location of the user and recommends the optimal viewing time based on weather data in the selected user location along with other useful utilities.
 
 ## Tech Stack
 
@@ -8,7 +8,7 @@ A calendar that displays all celestial events observable from the location of th
   - HTML
   - CSS
   - JS
-- APIs
+- APIs Used
   - Open Meteo API
   - AMS Restfull API
 
